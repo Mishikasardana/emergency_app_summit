@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/drawable-v21_ic_menu_manage.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/drawable-v21/ic_menu_manage.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/layout_nav_header_main_activitynavigation.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/layout/nav_header_main_activitynavigation.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/drawable-v21_ic_menu_slideshow.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/drawable-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/drawable-v21_ic_menu_send.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/drawable-v21/ic_menu_send.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/layout_activity_login.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/menu_activity_main_activitynavigation_drawer.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/menu/activity_main_activitynavigation_drawer.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/raw_ring.mp3.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/raw/ring.mp3"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/drawable-v21_ic_menu_camera.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/drawable-v21/ic_menu_camera.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/menu_main_activitynavigation.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/menu/main_activitynavigation.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/layout_activity_main_activitynavigation.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/layout/activity_main_activitynavigation.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/drawable-v21_ic_menu_gallery.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/drawable-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/drawable-v21_ic_menu_share.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/drawable-v21/ic_menu_share.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/layout_app_bar_main_activitynavigation.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/layout/app_bar_main_activitynavigation.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/layout_content_main_activitynavigation.xml.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/layout/content_main_activitynavigation.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.vijay.sos_application.app-pngs-32:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.vijay.sos_application.app-debug-36:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.vijay.sos_application.app-main-38:/mipmap-hdpi/ic_launcher_round.png"
+    }
+]
