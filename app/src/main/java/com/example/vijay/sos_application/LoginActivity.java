@@ -1,5 +1,9 @@
 package com.example.vijay.sos_application;
-
+import android.Manifest;
+import android.speech.RecognizerIntent;
+import android.speech.SpeechRecognizer;
+import android.speech.RecognitionListener;
+import androidx.core.app.ActivityCompat;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
@@ -10,7 +14,6 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.app.LoaderManager.LoaderCallbacks;
-
 import androidx.loader.content.CursorLoader;
 import androidx.loader.content.Loader;
 import android.database.Cursor;
@@ -30,9 +33,11 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -43,8 +48,21 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     /**
      * Id to identity READ_CONTACTS permission request.
+     *
      */
     private static final int REQUEST_READ_CONTACTS = 0;
+    private void triggerSOSAlarm() {
+        Toast.makeText(this, "🚨 SOS ACTIVATED!", Toast.LENGTH_SHORT).show();
+        if (!alarmPlayer.isPlaying()) {
+            alarmPlayer.start();
+        }
+    }
+
+    private void restartSOSListening() {
+        try { sosRecognizer.stopListening(); } catch (Exception ignored) {}
+        try { sosRecognizer.startListening(recognizerIntent); } catch (Exception ignored) {}
+    }
+
 
     /**
      * A dummy authentication store containing known user names and passwords.
@@ -63,11 +81,59 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+    // === Hidden SOS Voice Listener ===
+    private SpeechRecognizer sosRecognizer;
+    private Intent recognizerIntent;
+    private Timer sosRestartTimer;
+    private android.media.MediaPlayer alarmPlayer;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        // Prepare alarm sound
+        alarmPlayer = android.media.MediaPlayer.create(this, R.raw.ring);
+
+// Setup hidden speech listener
+        sosRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
+        recognizerIntent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        recognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+        recognizerIntent.putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true);
+
+        sosRecognizer.setRecognitionListener(new RecognitionListener() {
+            @Override
+            public void onResults(Bundle bundle) {
+                ArrayList<String> results = bundle.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
+                if (results != null && !results.isEmpty()) {
+                    String speech = results.get(0).toLowerCase();
+                    if (speech.contains("sos")) {
+                        triggerSOSAlarm();
+                    }
+                }
+                restartSOSListening();
+            }
+
+            @Override
+            public void onPartialResults(Bundle bundle) {
+                ArrayList<String> partial = bundle.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
+                if (partial != null && !partial.isEmpty()) {
+                    String part = partial.get(0).toLowerCase();
+                    if (part.contains("sos")) {
+                        triggerSOSAlarm();
+                    }
+                }
+            }
+
+            @Override public void onReadyForSpeech(Bundle bundle) {}
+            @Override public void onBeginningOfSpeech() {}
+            @Override public void onRmsChanged(float v) {}
+            @Override public void onBufferReceived(byte[] buffer) {}
+            @Override public void onEndOfSpeech() { restartSOSListening(); }
+            @Override public void onError(int error) { restartSOSListening(); }
+            @Override public void onEvent(int i, Bundle bundle) {}
+        });
+
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
@@ -136,6 +202,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         if (requestCode == REQUEST_READ_CONTACTS) {
             if (grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 populateAutoComplete();
+                sosRecognizer.startListening(recognizerIntent);
+            }
+            else{
+                Toast.makeText(this, "Mic permission needed for SOS feature", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -270,6 +340,23 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         addEmailsToAutoComplete(emails);
     }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        if (sosRecognizer != null) {
+            sosRecognizer.destroy();
+        }
+
+        if (alarmPlayer != null) {
+            alarmPlayer.release();
+        }
+
+        if (sosRestartTimer != null) {
+            sosRestartTimer.cancel();
+        }
+    }
+
 
     @Override
     public void onLoaderReset(@NonNull Loader<Cursor> cursorLoader) {
@@ -350,7 +437,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         protected void onCancelled() {
             mAuthTask = null;
             showProgress(false);
+
+
         }
+
+
     }
 }
 

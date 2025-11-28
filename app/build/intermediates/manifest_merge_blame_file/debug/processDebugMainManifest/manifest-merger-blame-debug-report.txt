@@ -11,194 +11,197 @@
 11    <!-- To auto-complete the email text field in the login form with the user's emails -->
 12
 13    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-13-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:8:5-71
-13-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:8:22-68
+13-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:8:5-71
+13-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:8:22-68
 14    <uses-permission android:name="android.permission.READ_PROFILE" />
-14-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:9:5-71
-14-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:9:22-68
+14-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:9:5-71
+14-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:9:22-68
 15    <uses-permission android:name="android.permission.READ_CONTACTS" />
-15-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:10:5-72
-15-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:10:22-69
-16
-17    <!-- Include required permissions for Google Maps API to run. -->
-18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:20:5-78
-18-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:20:22-76
-19    <uses-permission android:name="android.permission.INTERNET" />
-19-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:21:5-66
-19-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:21:22-64
-20
-21    <uses-feature
-21-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:22:5-24:33
-22        android:glEsVersion="0x00020000"
-22-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:23:8-40
-23        android:required="true" />
-23-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:24:8-31
-24
-25    <queries>
-25-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:27:5-30:15
-26
-27        <!-- Needs to be explicitly declared on Android R+ -->
-28        <package android:name="com.google.android.apps.maps" />
-28-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:29:7-61
-28-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:29:16-59
-29    </queries>
-30
-31    <permission
-31-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
-32        android:name="com.example.vijay.sos_application.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-32-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-33        android:protectionLevel="signature" />
-33-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
-34
-35    <uses-permission android:name="com.example.vijay.sos_application.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-35-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-35-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-36
-37    <application
-37-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:11:5-37:19
-38        android:allowBackup="true"
-38-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:12:9-35
-39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-39-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
-40        android:debuggable="true"
-41        android:extractNativeLibs="true"
-42        android:icon="@mipmap/ic_launcher"
-42-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:13:9-43
-43        android:label="@string/app_name"
-43-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:14:9-41
-44        android:roundIcon="@mipmap/ic_launcher_round"
-44-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:15:9-54
-45        android:supportsRtl="true"
-45-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:16:9-35
-46        android:testOnly="true"
-47        android:theme="@style/AppTheme" >
-47-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:17:9-40
-48        <meta-data
-48-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:19:9-20:46
-49            android:name="com.google.android.geo.API_KEY"
-49-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:19:20-65
-50            android:value="@string/map_key" />
-50-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:20:13-44
-51
-52        <activity
-52-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:22:9-31:20
-53            android:name="com.example.vijay.sos_application.LoginActivity"
-53-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:23:13-42
-54            android:exported="true"
-54-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:24:13-36
-55            android:label="@string/app_name" >
-55-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:25:13-45
-56            <intent-filter>
-56-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:26:13-30:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:27:17-69
-57-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:27:25-66
-58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:29:17-77
-59-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:29:27-74
-60            </intent-filter>
-61        </activity>
-62        <activity
-62-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:32:9-36:49
-63            android:name="com.example.vijay.sos_application.MainActivitynavigation"
-63-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:33:13-51
-64            android:exported="false"
-64-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:36:13-37
-65            android:label="@string/title_activity_main_activitynavigation"
-65-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:34:13-75
-66            android:theme="@style/AppTheme.NoActionBar" />
-66-->C:\Users\hp\Documents\College\Competitions\AI Summit\Emergency APP\app\src\main\AndroidManifest.xml:35:13-56
-67        <!-- Needs to be explicitly declared on P+ -->
-68        <uses-library
-68-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:7-86
-69            android:name="org.apache.http.legacy"
-69-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:21-58
-70            android:required="false" />
-70-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\hp\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:59-83
-71
-72        <activity
-72-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\hp\.gradle\caches\8.13\transforms\76671cfa30d93a352fed55e06c3888b2\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
-73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-73-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\hp\.gradle\caches\8.13\transforms\76671cfa30d93a352fed55e06c3888b2\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
-74            android:exported="false"
-74-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\hp\.gradle\caches\8.13\transforms\76671cfa30d93a352fed55e06c3888b2\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
-75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-75-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\hp\.gradle\caches\8.13\transforms\76671cfa30d93a352fed55e06c3888b2\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
-76
-77        <meta-data
-77-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\hp\.gradle\caches\8.13\transforms\c43dd85cf8e6ce14b7c5cbed0e406076\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-78            android:name="com.google.android.gms.version"
-78-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\hp\.gradle\caches\8.13\transforms\c43dd85cf8e6ce14b7c5cbed0e406076\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-79            android:value="@integer/google_play_services_version" />
-79-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\hp\.gradle\caches\8.13\transforms\c43dd85cf8e6ce14b7c5cbed0e406076\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-80
-81        <provider
-81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-82            android:name="androidx.startup.InitializationProvider"
-82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
-83            android:authorities="com.example.vijay.sos_application.androidx-startup"
-83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
-84            android:exported="false" >
-84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
-85            <meta-data
-85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
-87                android:value="androidx.startup" />
-87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
-88            <meta-data
-88-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\8.13\transforms\b91f562d2ebc66d99a9d8f2a5dd2ba06\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-89-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\8.13\transforms\b91f562d2ebc66d99a9d8f2a5dd2ba06\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-90                android:value="androidx.startup" />
-90-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\8.13\transforms\b91f562d2ebc66d99a9d8f2a5dd2ba06\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-91            <meta-data
-91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-92                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-93                android:value="androidx.startup" />
-93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-94        </provider>
-95
-96        <receiver
-96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-98            android:directBootAware="false"
-98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-99            android:enabled="true"
-99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-100            android:exported="true"
-100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-101            android:permission="android.permission.DUMP" >
-101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-102            <intent-filter>
-102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-104            </intent-filter>
-105            <intent-filter>
-105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-107            </intent-filter>
-108            <intent-filter>
-108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-110            </intent-filter>
-111            <intent-filter>
-111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hp\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-113            </intent-filter>
-114        </receiver>
-115    </application>
-116
-117</manifest>
+15-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:10:5-72
+15-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:10:22-69
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:11:5-70
+16-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:11:22-68
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:20:5-78
+19-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:20:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:21:5-66
+20-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:21:22-64
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:22:5-24:33
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:23:8-40
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:24:8-31
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:27:5-30:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:29:7-61
+29-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:29:16-59
+30    </queries>
+31
+32    <permission
+32-->[androidx.core:core:1.13.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.vijay.sos_application.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.13.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.13.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.vijay.sos_application.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.13.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.13.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:13:5-39:19
+39        android:allowBackup="true"
+39-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:14:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.13.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\0160d0d9a4e08b930772f35e8dfb8317\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:15:9-43
+44        android:label="@string/app_name"
+44-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:16:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:17:9-54
+46        android:supportsRtl="true"
+46-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:18:9-35
+47        android:testOnly="true"
+48        android:theme="@style/AppTheme" >
+48-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:19:9-40
+49        <meta-data
+49-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:21:9-22:46
+50            android:name="com.google.android.geo.API_KEY"
+50-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:21:20-65
+51            android:value="@string/map_key" />
+51-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:22:13-44
+52
+53        <activity
+53-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:24:9-33:20
+54            android:name="com.example.vijay.sos_application.LoginActivity"
+54-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:25:13-42
+55            android:exported="true"
+55-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:26:13-36
+56            android:label="@string/app_name" >
+56-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:27:13-45
+57            <intent-filter>
+57-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:28:13-32:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:29:17-69
+58-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:29:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:31:17-77
+60-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:31:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:34:9-38:49
+64            android:name="com.example.vijay.sos_application.MainActivitynavigation"
+64-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:35:13-51
+65            android:exported="false"
+65-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:38:13-37
+66            android:label="@string/title_activity_main_activitynavigation"
+66-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:36:13-75
+67            android:theme="@style/AppTheme.NoActionBar" />
+67-->C:\Users\VICTUS\Downloads\Emergency APP\emergency\app\src\main\AndroidManifest.xml:37:13-56
+68        <!-- Needs to be explicitly declared on P+ -->
+69        <uses-library
+69-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:7-86
+70            android:name="org.apache.http.legacy"
+70-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:21-58
+71            android:required="false" />
+71-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\f7221baa7071f6962191e12050e45cb5\transformed\jetified-play-services-maps-19.2.0\AndroidManifest.xml:33:59-83
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\76671cfa30d93a352fed55e06c3888b2\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\76671cfa30d93a352fed55e06c3888b2\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\76671cfa30d93a352fed55e06c3888b2\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\76671cfa30d93a352fed55e06c3888b2\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\c43dd85cf8e6ce14b7c5cbed0e406076\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\c43dd85cf8e6ce14b7c5cbed0e406076\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\c43dd85cf8e6ce14b7c5cbed0e406076\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.vijay.sos_application.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\VICTUS\.gradle\caches\8.13\transforms\96e50c31e67fd69a4dd17576c13e8f62\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\VICTUS\.gradle\caches\8.13\transforms\b91f562d2ebc66d99a9d8f2a5dd2ba06\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\VICTUS\.gradle\caches\8.13\transforms\b91f562d2ebc66d99a9d8f2a5dd2ba06\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\VICTUS\.gradle\caches\8.13\transforms\b91f562d2ebc66d99a9d8f2a5dd2ba06\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+94                android:value="androidx.startup" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+95        </provider>
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VICTUS\.gradle\caches\8.13\transforms\368d0f4805388812c74881d6f69f3538\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>
